@@ -5,10 +5,10 @@
 /* Your CSS Code here. */
 .holder{
 	display:grid;
-	grid-template:column;
+	grid-template-column:100px 100px;
 	height:100px;
 	width:100px;
-	grid-template:rows;
+	grid-template-rows:100px 100px;
 }
 .one1{
 	border-right:2px solid red;
