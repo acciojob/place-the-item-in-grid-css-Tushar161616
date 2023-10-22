@@ -1,2 +1,51 @@
-
+*{
+	margin:0px;
+	padding:0px;
+}
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	height:200px;
+	width:200px;
+}
+.one1{
+	border-right:2px solid red;
+	border-bottom:2px solid red;
+	border-left:3px solid red;
+	border-top:3px solid red;
+	text-align:center;
+	padding:40px;
+}
+.one2{
+	border-right:2px solid red;
+	border-bottom:3px solid red;
+	border-left:3px solid red;
+	border-top:2px solid red;
+	text-align:center;
+	text-align:center;
+	padding:40px;
+}
+.aone{
+	display:flex;
+	flex-direction:column;	
+}
+.too{
+	display:flex;
+	flex-direction:column;
+}
+.two1{
+	border-right:3px solid red;
+	border-bottom:2px solid red;
+	border-left:2px solid red;
+	border-top:3px solid red;
+	text-align:center;
+	padding:40px;
+}
+.two2{
+	border-right:3px solid red;
+	border-bottom:3px solid red;
+	border-left:2px solid red;
+	border-top:2px solid red;
+	text-align:center;
+	padding:40px;
+}
