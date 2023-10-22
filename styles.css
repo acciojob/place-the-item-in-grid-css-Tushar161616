@@ -4,7 +4,7 @@
 }
 /* Your CSS Code here. */
 .holder{
-	display:flex;
+	display:grid;
 	height:200px;
 	width:200px;
 }
@@ -26,11 +26,11 @@
 	padding:40px;
 }
 .aone{
-	display:flex;
+	display:grid;
 	flex-direction:column;	
 }
 .too{
-	display:flex;
+	display:grid;
 	flex-direction:column;
 }
 .two1{
