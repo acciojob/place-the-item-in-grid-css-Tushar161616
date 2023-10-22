@@ -5,8 +5,10 @@
 /* Your CSS Code here. */
 .holder{
 	display:grid;
-	height:200px;
-	width:200px;
+	grid-template:column;
+	height:100px;
+	width:100px;
+	grid-template:rows;
 }
 .one1{
 	border-right:2px solid red;
